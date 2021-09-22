@@ -1,5 +1,11 @@
-# Enrique's website
-## Interests:
+---
+title: Enrique Valencia's website
+layout: template
+filename: index.md
+--- 
+Hello! Welcome to my website.
+
+# My interests:
 
 1. Hiking 
 2. Biking
