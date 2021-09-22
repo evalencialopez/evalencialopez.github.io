@@ -1,5 +1,5 @@
-#Enrique's website
-##Interests:
+# Enrique's website
+## Interests:
 
 1. Hiking 
 2. Biking
