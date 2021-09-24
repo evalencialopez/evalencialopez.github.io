@@ -1,7 +1,10 @@
  
 # Hello! Welcome to my website.
 
-## My interests:
+My name is Enrique Valencia Lopez, a PhD Student in the 
+Graduate School of Education.
+
+##  My interests:
 
 1. Hiking 
 2. Biking
