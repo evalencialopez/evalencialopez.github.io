@@ -1,0 +1,12 @@
+title: Your Name
+description: Strada Postdoctoral Researcher at the University of California, Irvine
+baseurl: ""
+url: "https://evalencialopez.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+header_pages:
+  - index.md
+  - cv.md
+  - research.md
+  - contact.md
