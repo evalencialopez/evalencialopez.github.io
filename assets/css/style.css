@@ -65,6 +65,8 @@ footer {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 200px;
-  border-radius: 50%; /* Optional: makes the image circular */
+  width: 150px; 
+  height: 150px; /* Ensures consistent dimensions */
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures the image fills the circle without distortion */
 }
