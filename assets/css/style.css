@@ -1,72 +1,107 @@
+/* ====== GLOBAL STYLES ====== */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.7;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  color: #333;
+  color: #2B2B2B; /* darker, more readable text */
+  background-color: #F8F9FA; /* soft off-white background */
 }
 
+/* ====== HEADER ====== */
 header {
   text-align: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #E0E0E0;
   padding-bottom: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 header h1 {
   margin: 0;
   font-size: 2.5em;
+  color: #0064A4; /* UCI blue */
 }
 
+/* ====== NAVIGATION ====== */
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 24px;
+  margin-top: 15px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #2c3e50;
+  color: #2B2B2B;
   font-weight: bold;
+  padding: 6px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 6px;
 }
 
-nav ul li a.active, nav ul li a:hover {
-  color: #2980b9;
+nav ul li a.active,
+nav ul li a:hover {
+  color: #FFFFFF;
+  background-color: #0064A4; /* blue hover effect */
 }
 
+/* ====== MAIN CONTENT ====== */
 main {
   margin-bottom: 40px;
 }
 
 h1, h2, h3 {
-  color: #2c3e50;
+  color: #003B71; /* slightly darker UCI blue for headings */
 }
 
 a {
-  color: #2980b9;
+  color: #0064A4; /* link color */
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
+  color: #FDB515; /* UCI gold hover */
   text-decoration: underline;
 }
 
+/* ====== FOOTER ====== */
 footer {
   text-align: center;
   font-size: 0.9em;
-  color: #777;
-  border-top: 1px solid #ccc;
+  color: #666;
+  border-top: 1px solid #E0E0E0;
   padding-top: 20px;
+  margin-top: 40px;
 }
 
+/* ====== IMAGES ====== */
 img {
   display: block;
   margin: 0 auto;
   width: 150px; 
-  height: 150px; /* Ensures consistent dimensions */
-  border-radius: 50%; /* Makes it circular */
-  object-fit: cover; /* Ensures the image fills the circle without distortion */
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #E0E0E0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== SMALL SCREENS ====== */
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
